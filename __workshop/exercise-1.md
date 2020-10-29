@@ -8,7 +8,7 @@ He needs a RESTful API to serve all of the data that he'll have and gather more!
 
 Provide him with a series of REST endpoints that meet all, or most of the RESTful principles that you've just heard about! Your feedback will dictate how the database will eventually be built... no pressure.
 
-Write out each endpoint, its method, and brief description of waht it should do.
+Write out each endpoint, its method, and brief description of what it should do.
 
 | endpoint | method | Description            |
 | -------- | ------ | ---------------------- |
@@ -17,3 +17,20 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+`/customers` | `GET` | Retreive your list of customers
+`/customers/:id` | `GET` | Retreive a specific customer by id
+`/customers/:id` | `POST` | Add a new customer to the list
+`/customers/:id` | `PUT` | Update existing customer
+`/customers/:id` | `PATCH` | Edit a portion of specific customer's profile
+`/customers/:id` | `DELETE` | Delete an existing customer
+`/products` | `GET` | Retreive your list of products
+`/products/:id` | `GET` | Retreive a specific pruduct by id
+`/products/:id` | `POST` | Add a new product
+`/customers/:id` | `PUT` | Update existing product
+`/products/:id` | `PATCH` | Update a portion of a specific product's information, ex: price
+`/products/:id` | `DELETE` | Delete an existing product
+`/stock` | `GET` | Retreive your list of stock
+`/stock:id` | `GET` | Retreive a specific stock item
+`/stock:id` | `PUT` | Create a new stock item
+`/stock/:id` | `DELETE` | Delete an existing stock item
